@@ -11,10 +11,10 @@ int main() {
     scanf("%lf", &c);
 
     if (a == 0) {
-        if (b == 0) {
-            if (c == 0) { //a voi b = 0
+        if (b == 0) {//a voi b = 0
+            if (c == 0) { //ca 3 = 0
                 printf("vo so nghiem\n");
-            } else { //ca 3 = 0
+            } else { 
                 printf("vo nghiem\n");
             }
         } else { //b khac 0
